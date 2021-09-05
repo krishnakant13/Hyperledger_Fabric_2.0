@@ -1,41 +1,4 @@
 
-----------
-HLF-Dev-Chaincode-V2.1-1.0      April 25, 2020
-* Upgraded Ubuntu to 18.04 LTS
-* Upgraded Fabric to 2.1
-* Upgraded Node to 12.13.6
-* Introduced VirtualBox Express setup - more info at network/setup/vexpress/README.md
-* MAJOR enhancements to utility script
-* Introduced environment variables for Fabric 2.x
-* chain.sh script now supports peer lifecycle commands
-
-HLF-Dev-Chaincode-V1.4-1.4      December 15, 2019
-* Changed the script network/setup/go.sh      Now installs GoLang v1.12.14
-* Fabric binaries updated to 1.4.3 (Changes in install-fabric.sh)
-* Fabric shim now builds locally to make the setup future proof (Changes in install-fabric.sh)
-* Update network/setup/node.sh to install g++
-* Dev network Channe policy for Acme/Budget - config/configtx.yaml
-
-HLF-Dev-Chaincode-V1.4-1.3      June 6, 2019
-* Docker compose install failure (reported by Emir)
-* Vagrantfile port mapping issue (7051:7052 instead of 7052:7052)
-
-HLF-Dev-Chaincode-V1.4-1.2      May 17, 2019
-* Install Fabric Script Change - Mac OS install was failing
-
-HLF-Dev-Chaincode-V1.4-1.1      May 10, 2019
-
-* Updated the shell script for updating the .bashrc for PATH
-* Fixed errors in install-protoc.sh
-  Updated the lecture "Hands On: Using functions for ...."
-* Fixed the install-node-utils.sh for sporadic permission errors
-* Default log level changed to info
-* Added script [setup/update-git-repo.sh] for pulling latest sample code from GitHub
-* Added script [update-sh-file-mode.sh] for updating mode for all of the shell scripts
-
-HLF-Dev-Chaincode-V1.4-1.0      April 18, 2019
-
-
 #############################################
 # Setup Instructions: network/setup/README.md
 #############################################
