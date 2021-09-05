@@ -1,0 +1,7 @@
+[submodule "login-otp-database"]
+	path = login-otp-database
+	url = https://github.com/samarth9201/login-otp-database.git
+
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/samarth9201/Fabric-B2B-Frontend
