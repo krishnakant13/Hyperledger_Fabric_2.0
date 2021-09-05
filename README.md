@@ -1,10 +1,4 @@
 
-####################### https://courses.pragmaticpaths.com ##############
-# Part of a course 'Mastering Fabric Chaincode Development using GoLang'#
-# http://www.bcmentors.com      raj@acloudfan.com                       #
-#########################################################################
-
-Change Log:
 ----------
 HLF-Dev-Chaincode-V2.1-1.0      April 25, 2020
 * Upgraded Ubuntu to 18.04 LTS
@@ -78,11 +72,5 @@ To get help
 
 - To check current chaincode parameters
 > show-chain-env.sh   
-
-
-# VBOX Mount issue
-sudo service vboxadd-service stop
-sudo date -s "2010-10-01 10:25:00"
-
 
 
